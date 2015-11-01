@@ -1,0 +1,33 @@
+{
+  "name": "fusker-cli",
+  "version": "1.0.0",
+  "description": "a command-line fusker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fusker",
+    "fusk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walidsa3d/fusker-cli.git"
+   },
+  "bugs": {
+    "url": "https://github.com/walidsa3d/fusker-cli/issues"
+    },
+  "bin": {
+      "node-footix": "bin/cli"
+     },
+  "engines": {
+      "node": ">= 0.8.0"
+     },
+  "author": "Walid Saad",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "node-fusker": "^0.1.2",
+    "open": "0.0.5"
+  }
+}
